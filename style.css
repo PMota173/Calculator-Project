@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    min-height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.calculator {
+    padding: 20px;
+    width: 500px;
+    height: 664px;
+    border: 4px solid grey;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #AAAAAA;
+}
+
+.screen {
+    width: 100%;
+    height: 20%;
+    background-color: aliceblue;
+    border: 3px solid #5f5e5e;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #474747;
+}
+.calculus{
+    flex-grow: 3;
+}
+.result{
+    flex-grow: 7;
+}
+
+.func {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clear, .delete {
+    border: 3px solid #5f5e5e;
+    border-radius: 10px;
+    width: 48%;
+    height: 90%;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}
+.clear {
+    background-color: rgb(247, 159, 159);
+}
+.delete {
+    background-color: rgb(175, 175, 245);
+}
+.clear:hover{
+    background-color: rgb(226, 146, 146);
+}
+.delete:hover{
+    background-color: rgb(165, 165, 231);
+}
+
+.buttons-grid {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.keys {
+    border-radius: 9px;
+    width: 23%;
+    height: 23%;
+    border: 3px solid #5f5e5e;
+    background-color: #eee;
+    font-size: large;
+    font-weight: 600;
+}
+.keys:hover {
+    background-color: #ddddddfa;
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 490px) {
+    .calculator {  
+        height: 500px;
+        width: 350px;
+        padding: 20px;
+    }
+    .delete, .clear{
+        padding: 20px;
+        font-size: 16px;
+    }
+    .keys {
+        width: 24%;
+        height: 24%;
+    }
+    .func {
+        height: auto;
+    }
+}
