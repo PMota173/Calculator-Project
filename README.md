@@ -9,4 +9,4 @@ This is a simple calculator project developed in JavaScript.
 - Decimal operations supported.
 - Responsive design for different screen sizes.
 
-- [Live Demo](https://pmota173.github.io/calculator-project/) :point_left:
+- [Live Demo](https://pmota173.github.io/Calculator-Project/) :point_left:
