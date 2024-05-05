@@ -40,12 +40,14 @@ body {
     font-size: 32px;
     font-weight: 800;
     color: #474747;
+    text-align: right;
+    padding-right: 20px;
 }
 .calculus{
-    flex-grow: 3;
+    font-size: 24px;
 }
 .result{
-    flex-grow: 7;
+    font-size: 32px;
 }
 
 .func {
