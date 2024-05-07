@@ -73,7 +73,14 @@ function handleEvent(input) {
                 if (currentOp != null && firstNum != '' && secondNum != '') {
                     operate(firstNum, secondNum, currentOp);
                 }
-                currentOp = input;
+                else if (firstNum != '')
+                {
+                    currentOp = input;
+                }
+                else 
+                {
+                    return;
+                }
                 break;
             // Handle decimal point
             case '.':

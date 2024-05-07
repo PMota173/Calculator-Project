@@ -120,3 +120,22 @@ body {
         height: auto;
     }
 }
+
+@media screen and (max-height: 700px) {
+    .calculator {  
+        height: 500px;
+        width: 350px;
+        padding: 20px;
+    }
+    .delete, .clear{
+        padding: 20px;
+        font-size: 16px;
+    }
+    .keys {
+        width: 24%;
+        height: 24%;
+    }
+    .func {
+        height: auto;
+    }
+}
